@@ -1,0 +1,109 @@
+body {
+	color: #787878 ;
+	background-color: #f6f6f6;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Nunito Sans';font-size: 15px;
+	line-height: 1.5;
+
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo img {
+	padding-top: 20px;
+	margin: auto;
+}
+
+header {
+	color: black;
+	background-color: white;
+	min-height: 70px;
+	padding-top: 10px;
+}
+
+
+header li {
+	display: inline;
+	padding-top: 80px; 
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	margin: auto;
+	padding-right: 50px;
+}
+
+header a:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	margin: auto;
+	padding-right: 50px;
+}
+
+header .active a {
+	color: black;
+	font-weight: bold; 
+}
+
+ul {
+	margin: 0;
+	bottom: 0;
+	padding-top: 15px;
+}
+
+header nav {
+	background-color: #10c9c3;
+	min-height: 50px;
+}
+
+
+#Picture_asides {
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+	width: 25%;
+	min-height: 25px;
+	border-radius: 3px;
+}
+
+#name {
+	margin-left: 50%;
+	padding-top: 30px;
+	font-size: 26px;
+
+}
+
+#paragraph {
+	margin-left: 50%;
+	font-size: 18px;
+}
+
+#CV {
+	padding-top: 60px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #434545;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: white;
+}

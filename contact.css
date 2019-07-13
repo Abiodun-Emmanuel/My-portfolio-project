@@ -1,0 +1,172 @@
+body {
+	color: #787878 ;
+	background-color: #f6f6f6;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Nunito Sans';font-size: 15px;
+	line-height: 1.5;
+
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo img {
+	padding-top: 20px;
+	margin: auto;
+}
+
+header {
+	color: black;
+	background-color: white;
+	min-height: 70px;
+	padding-top: 10px;
+}
+
+
+header li {
+	display: inline;
+	padding-top: 80px; 
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	margin: auto;
+	padding-right: 50px;
+}
+
+header a:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	margin: auto;
+	padding-right: 50px;
+}
+
+header .active a {
+	color: black;
+	font-weight: bold; 
+}
+
+ul {
+	margin: 0;
+	bottom: 0;
+	padding-top: 15px;
+}
+
+header nav {
+	background-color: #10c9c3;
+	min-height: 50px;
+}
+
+
+body{
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+.container{
+	background-color: white;
+	margin: auto;
+	padding: 40px 50px 50px 50px;
+	width: 40%;
+	height: 500px;
+	top: 5%;
+	border-radius: 2%;
+	box-shadow: 0.5px 0.5px 1px 1px lightgrey;
+}
+
+
+.form{
+ padding-top: 0px;
+ margin: 5px;
+ padding-bottom: 90px;
+ padding-left: 30px;
+
+}
+
+#side-bar h1 {
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+#side-bar p {
+	text-align: center;
+	font-size: 17px;
+
+}
+
+.form .form1{
+	padding-bottom: 15px;
+}
+
+.form1 input{
+font-size: 0.8rem;
+width: 90%;
+height: 45px;
+padding-top: 0px;
+background-color: lightgrey;
+border-radius: 4px;
+padding-left: 20px;
+margin: none;
+border:none;
+}
+
+.submit {
+	text-align: center;
+	padding-top: 30px;
+	cursor: pointer;
+}
+
+
+.submit input[type="submit"]:hover {
+width: 15%;
+height: 30px;
+background-color: #10c9c3;
+color: white;
+border: 1px solid black;
+cursor: pointer;
+}
+
+
+.form input[type="submit"] {
+width: 15%;
+height: 30px;
+background-color: black;
+color: white;
+border: none;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #434545;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #434545;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
